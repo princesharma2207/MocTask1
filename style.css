@@ -1,0 +1,333 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+    
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    /* background-color: #c1520855; */
+    
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: flex-start;
+    position: fixed;
+    z-index: 99;
+    
+}
+#nav h4{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#nav button{
+    background-color: #F5821E;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+}
+#nav #mak{
+    position: absolute;
+    left: 86%;
+    background-color: #F36522;
+}
+#india{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.650);
+
+}
+#page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#page1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-size: 100;
+}
+#page1 p{
+    font-size: 27px;
+    margin-top: 20vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+}
+#container{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.card{
+    position: relative;
+    height: 80%;
+    width: 24%;
+    /* background-color: blue; */
+    border-radius: 5px;
+}
+#card1{
+    text-align: center;
+    background-color: #73A6D0;
+}
+#card2{
+    text-align: center;
+    background-color: #A9B8D3;
+}
+#card3{
+    text-align: center;
+    background-color: #6D9BC0;
+}
+#card4{
+    text-align: center;
+    background-color: #6D7AA0;
+
+}
+#atal{
+    position: relative;
+    width: 150%;
+    height: 60%;
+    margin-top: 47%;
+    margin-left: -20%;
+}
+#lal{
+    
+    width: 90%;
+    height: 50%;
+    margin-top: 55%;
+    margin-left: 5%;
+}
+#mano{
+    width: 130%;
+    height: 50%;
+    margin-top: 55%;
+    margin-left: -7%;
+}
+#kus{
+    width: 100%;
+    height: 50%;
+    margin-top: 55%;
+    
+}
+.head{
+    position: relative;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+#page3{
+    
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    background-image: url(https://images.unsplash.com/photo-1593527608720-b5e5d99f1fe6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80);
+    background-color: rgba(0, 0, 0, 0.650);
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 99;
+    /* opacity: 0.7; */
+}
+#page3 h1{
+    position: relative;
+    font-size: 100px;
+    top: 40%;
+    margin-left: 2%;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#page3 h3{
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 2%;
+    top: 40%;
+}
+#lok{
+    
+    width: 15%;
+    height: 20%;
+    
+    margin-top: 22%;
+    margin-left: 5%;
+    /* background-color: red; */
+    text-align: center;
+}
+#rajya{
+    
+    width: 15%;
+    height: 20%;
+    
+    margin-top: -10.9%;
+    margin-left: 25%;
+    /* background-color: red; */
+    text-align: center;
+}
+#lok h1{
+    font-size: 25px;
+}
+#lok h3{
+    font-size: 40px;
+}
+#rajya h1{
+    font-size: 25px;
+}
+#rajya h3{
+    font-size: 40px;
+}
+#page4{
+    width: 100%;
+    
+    height: 100vh;
+    background-color: #1D1F33;
+    
+
+}
+#head1{
+    position: relative;
+    width: 20%;
+    height: 10%;
+    /* background-color: red; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+    top: 15%;
+    
+
+    
+}
+#box1{
+    
+    width: 25%;
+    height: 50%;
+    margin-top: 7%;
+    margin-left: 5%;
+    /* background-color: red; */
+}
+#box1 img{
+    width: 80%;
+    height: 40%;
+    
+}
+#box1 h2{
+    margin-top: 20%;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    
+    
+}
+#box1 h5{
+    margin-top: 2%;
+    font-size: 18px ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+#box1 p{
+    margin-top: 15%;
+    font-size: 20px;
+    line-height: 30px;
+}
+#box2{
+    position: relative;
+    width: 25%;
+    height: 50%;
+    margin-top: -27%;
+    margin-left: 32%;
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+#box2 h2{
+    
+}
+#box2 p{
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+
+}
+#box2 #fro{
+    margin-top: 10%;
+
+}
+#box3{
+    position: relative;
+    width: 25%;
+    height: 50%;
+    margin-top: -27.1%;
+    margin-left: 53%;
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#box3 p{
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+
+}
+#box3 #pre{
+    margin-top: 17%;
+
+}
+#box4{
+    position: relative;
+    width: 25%;
+    height: 50%;
+    margin-top: -27.3%;
+    margin-left: 73%;
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#box4 p{
+    margin-top: 2%;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 30px;
+}
+#box4 #tru{
+    margin-top: 17%;
+
+}
+
+
+
